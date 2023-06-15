@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: object-detection-rest-k6em
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads-stage/mfaisal2-tenant/object-detection-rest/object-detection-rest-k6em@sha256:c992674ac85a07d177431fc5472b41f3e6dab354b9dfe23c4bcde007d2f70159
         name: my-python
         ports:
         - containerPort: 8081
